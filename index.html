@@ -1,0 +1,58 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang bán điện thoại</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <div class="logo">
+                <img src="https://img.freepik.com/premium-vector/hand-holding-smartphone-icon-mobile-phone-vector-illustration-logo-hold-cellphone_87543-10272.jpg" alt="Logo" class="logo-img">
+            </div>
+            <div class="menu-search">
+                <input type="text" placeholder="Tìm kiếm sản phẩm..." class="menu-search-input">
+            </div>
+            <div class="cart">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/shopping-cart.png" alt="Giỏ hàng" class="cart-icon">
+            </div>
+        </div>
+        <div class="banner">
+            <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:90/plain/https://dashboard.cellphones.com.vn/storage/sliding-home-iphone-16-pro-km-moi.jpg" alt="Banner" width="100%">
+        </div>
+    </header>
+    <div class="container">
+        <main class="main">
+            <h1>Điện thoại nổi bật nhất</h1>
+            <div class="list-product" id="productList">
+            </div>
+        </main>
+        <aside class="add-product-form">
+            <h2>Thêm sản phẩm mới</h2>
+            <form id="productForm">
+                <label for="tensanpham">Tên sản phẩm:</label>
+                <input type="text" id="tensanpham" required>
+                
+                <label for="giagoc">Giá gốc (VND):</label>
+                <input type="number" id="giagoc" required>
+                
+                <label for="giagiam">Giá khuyến mãi (VND):</label>
+                <input type="number" id="giagiam" required>
+                
+                <label for="hinhanhsanpham">URL ảnh sản phẩm:</label>
+                <input type="url" id="hinhanhsanpham" required>
+                
+                <button type="submit">Thêm sản phẩm</button>
+            </form>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <p>Bản quyền 2024 - Lê Huy Hoàng</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

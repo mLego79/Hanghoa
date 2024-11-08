@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header, .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-img {
+    height: 60px;
+}
+
+.menu-search {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.menu-search-input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cart-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.main {
+    padding: 20px;
+    flex: 2;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.list-product {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 20px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 15px;
+border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.item:hover {
+    transform: scale(1.05);
+}
+.item-image img {
+    width: 100%;
+    height: auto;
+}
+
+.item-title {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.item-title:hover {
+    color: #e60000;
+}
+
+.item-price {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.discounted-price {
+    color: red;
+    font-weight: bold;
+}
+.add-product-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.add-product-form h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.add-product-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.add-product-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.add-product-form button {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.add-product-form button:hover {
+    background-color: #555;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
