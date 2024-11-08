@@ -16,7 +16,7 @@ document.getElementById('productForm').addEventListener('submit', function(e) {
             <span class="discounted-price">${giagiam}đ</span>
         </div>
         <div class="item-cmt">
-            <  span>0 đánh giá</span>
+            <span>0 đánh giá</span>
     </div>
     `;
     document.getElementById('productList').appendChild(newProduct);
